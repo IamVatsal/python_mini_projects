@@ -15,7 +15,7 @@ def split_input_by_persentage(num_people: int):
         Get the user input for expenses per people.
     """
     print("\n")
-    while true:
+    while True:
         li = []
         try:
             i: int = 0
