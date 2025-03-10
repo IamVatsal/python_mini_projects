@@ -1,5 +1,6 @@
 from collections import Counter
 import re
+from tkinter import filedialog
 
 def word_frequency(text: str) -> list[tuple[str, int]]:
     lowered_text = text.lower()
@@ -14,7 +15,7 @@ def main():
     print("Showing the top 10 most frequent words")
     
     while True:
-        file_location = input("Path to the file: ")
+        file_location: str = filedialog.askopenfilename(defaultextension=".txt", filetypes=[("Text files", "*.txt")])
         try:
             with open(file_location, "r") as file:
                 content = file.read()
