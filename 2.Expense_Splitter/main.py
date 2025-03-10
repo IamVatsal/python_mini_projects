@@ -1,6 +1,3 @@
-from sympy import li, true
-
-
 def cal_split(expenses: float, num_people: int, currency: str, li: list) -> None:
     """
         Calculate the expenses per person.
@@ -43,6 +40,12 @@ def split_input():
             print("Please enter a valid number for expenses and number of people")
 
 def main():
+    """
+    Main function to run the expense splitter.
+    
+    It gets user inputs for total expenses, number of people, and each person's share percentage,
+    then calculates and prints the expenses per person.
+    """
     print("Welcome to the Expense Splitter")
     print("\n............................................................\n")
     try:

@@ -4,9 +4,6 @@
     It takes user inputs for monthly income, tax rate, currency, and monthly expenses.
     It then calculates and prints the monthly and yearly income, tax deductions, net income, and income after expenses.
 """
-from regex import P
-
-
 def cal_finance(monthly_income: float, tax_rate : float, currency : str, monthly_expenses: float) -> None:
     """
         Calculate the monthly and yearly income after tax deduction and expenses.
