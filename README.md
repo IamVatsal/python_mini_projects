@@ -12,6 +12,8 @@ This repository contains various Python mini projects aimed at improving Python 
    A program to analyze a text file and display the top 10 most frequent words.
 4. **Simple Notepad**  
    A basic text editor with save, save as, and load functionality.
+5. **Website Status Checker**  
+   A tool to check the status of a website, including its response time, server type, and content type.
 
 ## Prerequisites
 
@@ -74,6 +76,18 @@ This repository contains various Python mini projects aimed at improving Python 
     ```sh
     py main.py
     ```
+
+### Website Status Checker
+
+1. Navigate to the Website Status Checker directory:
+    ```sh
+    cd 5.Website_Status
+    ```
+2. Run the program:
+    ```sh
+    py main.py
+    ```
+3. Enter the URL of the website you want to check (e.g., `https://example.com`).
 
 ## Contributing
 
