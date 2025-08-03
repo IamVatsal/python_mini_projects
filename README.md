@@ -14,6 +14,8 @@ This repository contains various Python mini projects aimed at improving Python 
    A basic text editor with save, save as, and load functionality.
 5. **Website Status Checker**  
    A tool to check the status of a website, including its response time, server type, and content type.
+6. **Currency Converter**  
+   A tool to convert between different currencies using real-time exchange rates.
 
 ## Prerequisites
 
@@ -88,6 +90,29 @@ This repository contains various Python mini projects aimed at improving Python 
     py main.py
     ```
 3. Enter the URL of the website you want to check (e.g., `https://example.com`).
+
+### Currency Converter
+
+1. Get a free API key from [ExchangeRate-API](https://app.exchangerate-api.com/):
+   - Sign up for a free account
+   - Copy your API key
+2. Navigate to the Currency Converter directory:
+    ```sh
+    cd "6.Currency Converter"
+    ```
+3. Open `main.py` and replace `YOUR_API_KEY_HERE` with your actual API key:
+    ```python
+    API_KEY = "your_actual_api_key_here"
+    ```
+4. Install required packages (if not already installed):
+    ```sh
+    pip install requests
+    ```
+5. Run the program:
+    ```sh
+    py main.py
+    ```
+6. Follow the prompts to convert between currencies.
 
 ## Contributing
 
