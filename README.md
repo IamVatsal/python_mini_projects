@@ -17,6 +17,9 @@ This repository contains various Python mini projects aimed at improving Python 
 6. **Currency Converter**  
    A tool to convert between different currencies using real-time exchange rates.
 
+7. **Password Generator**  
+    Generates secure random passwords with customizable length, uppercase, and symbols. Also checks password strength.
+
 ## Prerequisites
 
 - **Python 3.x**: Make sure you have Python installed on your system. You can download it from [python.org](https://www.python.org/downloads/).
@@ -113,6 +116,18 @@ This repository contains various Python mini projects aimed at improving Python 
     py main.py
     ```
 6. Follow the prompts to convert between currencies.
+
+### Password Generator
+
+1. Navigate to the Password Generator directory:
+    ```sh
+    cd "7.Password_Generator"
+    ```
+2. Run the program:
+    ```sh
+    py main.py
+    ```
+3. The program will generate random passwords and display their strength.
 
 ## Contributing
 
