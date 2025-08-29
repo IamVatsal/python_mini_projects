@@ -16,9 +16,12 @@ This repository contains various Python mini projects aimed at improving Python 
    A tool to check the status of a website, including its response time, server type, and content type.
 6. **Currency Converter**  
    A tool to convert between different currencies using real-time exchange rates.
-
 7. **Password Generator**  
     Generates secure random passwords with customizable length, uppercase, and symbols. Also checks password strength.
+8. **Text Analyser**  
+    Analyzes a text file and provides statistics such as word count, unique words, paragraph count, and frequent words.
+9. **Morse Code Converter**  
+    Converts text to Morse code and Morse code back to text.
 
 ## Prerequisites
 
@@ -128,6 +131,30 @@ This repository contains various Python mini projects aimed at improving Python 
     py main.py
     ```
 3. The program will generate random passwords and display their strength.
+
+### Text Analyser
+
+1. Navigate to the Text Analyser directory:
+    ```sh
+    cd "8. Text Analyser"
+    ```
+2. Run the program:
+    ```sh
+    py main.py
+    ```
+3. The program will analyze `sample.txt` and display statistics about the text.
+
+### Morse Code Converter
+
+1. Navigate to the Morse Code Converter directory:
+    ```sh
+    cd "9. Morse Code Converter"
+    ```
+2. Run the program:
+    ```sh
+    py main.py
+    ```
+3. Enter text to convert to Morse code or decode Morse code back to text.
 
 ## Contributing
 
